@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Jason's Quest</title>
+</head>
+
+<body>
+
+  <!-- Header section -->
+  <header>
+    <a href="./index.html">
+      <h1>
+        <img
+          src="https://www.wildcodeschool.com/assets/logo_main-e4f3f744c8e717f1b7df3858dce55a86c63d4766d5d9a7f454250145f097c2fe.png"
+          alt="Wild Code School logo" />
+        Les Argonautes
+      </h1>
+    </a>
+  </header>
+
+  <!-- Main section -->
+  <main>
+
+    <!-- New member form -->
+    <h2>Ajouter un(e) Argonaute</h2>
+    <form class="new-member-form">
+      <div class="inputsDislay">
+        <label for="name">Nom</label>
+        <input id="name" name="name" type="text" placeholder="Charalampos" />
+        <p id="nameErrorMsg">
+          <!-- si est un message d'erreur -->
+        </p>
+        <label for="name">Age</label>
+        <input id="age" name="age" type="text" placeholder="25" />
+        <p id="ageErrorMsg"></p>
+        <label for="name">Pays d'origine</label>
+        <input id="country" name="country" type="text" placeholder="Grece" />
+        <p id="countryErrorMsg"></p>
+        <label for="name">Description</label>
+        <input id="description" name="description" type="text" placeholder="Charalampos est un pilote de talent" />
+        <p id="descriptionErrorMsg"></p>
+      </div>
+      <button type="submit" class="new-card">Envoyer</button>
+    </form>
+
+    <!-- Member list -->
+    <h2>Membres de l'équipage</h2>
+    <p class="argonautes-number"></p>
+    <section class="argonautes-list" id="argonautes-list">
+      <div class="card">
+        <!-- <a href="" class="member-card">
+          <h3>Charalampos</h3>
+          <p>25 ans</p>
+          <p>originaire de Grece</p>
+          <p>Charalampos est un pilote de talent</p>
+        </a>
+        <button type="submit" class="delete-card">X</button> -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Inscrit sur le marbre par Jason en Anthestérion de l'an 2390 avant Jeanne Calment
+    </p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

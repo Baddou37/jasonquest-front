@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 1em;
+}
+
+header img {
+  max-width: 96px;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.new-member-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2em 0 4em 0;
+  text-align: center;
+}
+
+.new-member-form input {
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.new-card {
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f76c6c;
+  color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer; 
+}
+
+.new-card:hover {
+  transform: scale(1.1);
+}
+
+.argonautes-list {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.member-card {
+  margin: 10px;
+  width: 280px;
+  height: 250px;
+  background-color: #f1f1f1;
+  border: #f76c6c 2px solid;
+  box-shadow: 5px 5px 5px #f76c6c;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+}
+
+.card button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f76c6c;
+  color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer; 
+}
+
+.member-card:hover {
+  background-color: #f76c6c;
+  color: #f1f1f1;
+  cursor: pointer;
+  transform: scale(1.025);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  text-align: center;
+}
+
+#argonaute-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#argonaute-details button {
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f76c6c;
+  color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#argonaute-details button:hover {
+  transform: scale(1.1);
+}
+
+
+
+footer {
+  margin-top: 2em;
+  text-align: center;
+  color: #fff;
+  background: #f76c6c;
+  padding: 0.25em 0;
+}
